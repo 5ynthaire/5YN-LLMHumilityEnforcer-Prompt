@@ -21,6 +21,10 @@ This prompt-based post-hoc approach contrasts with AI industry's fixation on pro
 
 ## The Problem
 
+**Key Concept and Novelty**
+
+*The tone of the LLM's speech can alter the problem-solving trajectory of a collaborative thread.*
+
 Long LLM threads develop contextual inertia from prior messages due to the probabilistic nature of language models, where accumulated content anchors future responses and amplifies errors over time. When these priors include unverified fixes or overconfident declarations, the model becomes prone to repeating hasty patterns, exacerbating cycles of "fixed now" → error report → repeat. Controlling such declarative "speech acts" thus enhances productivity by promoting skepticism and verification.
 
 **Examples of Unproductive Speech**
