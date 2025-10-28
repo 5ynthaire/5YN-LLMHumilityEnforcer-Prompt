@@ -6,7 +6,11 @@ e.g., "fixed now" → error report. →"fixed now" → error report ...
 
 ## Overview
 
-The LLM Humility Enforcer is a prompt designed to mitigate contextual inertia in iterative LLM conversations, such as debugging or troubleshooting threads. By anchoring responses to prior errors and overconfident proclamations, long contexts can degrade output quality over time; this prompt targets declarative "speech acts" (e.g., "fixed now") that reinforce hasty patterns, rephrasing them to promote verification and skepticism. Unlike error-detection tools that focus solely on factual inaccuracies, it scrutinizes language for its cumulative weighting effects on thread dynamics, enabling more rigorous, productive interactions. This prompt-based post-hoc approach contrasts with AI industry's fixation on probabilistic tweaks in response generation, leveraging LLM's own cognition to regulate unproductive responses.
+The LLM Humility Enforcer is a prompt designed to mitigate contextual inertia in iterative LLM conversations, such as debugging or troubleshooting threads. Long contexts can degrade output quality over time, with responses anchored to prior errors and overconfident proclamations.
+
+This prompt targets declarative "speech acts" (e.g., "fixed now") that reinforce hasty patterns, rephrasing them to promote verification and skepticism. Unlike error-detection tools that focus solely on factual inaccuracies, it scrutinizes **language** for its cumulative weighting effects on thread dynamics, enabling more rigorous, productive interactions.
+
+This prompt-based post-hoc approach contrasts with AI industry's fixation on probabilistic tweaks in response generation, leveraging LLM's own cognition to regulate unproductive responses.
 
 ## About
 
