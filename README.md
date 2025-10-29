@@ -1,13 +1,11 @@
 # LLM Humility Enforcer Prompt
 
 Mitigate thread quality degeneration from overconfident LLM declarations preceding user error reports.
-
-e.g., "fixed now" → error report. →"fixed now" → error report ...
-
-## Overview
+e.g., "fixed now" → error report →"fixed now" → error report → "fixed now" → error report...
 
 **Key Concept and Novelty** 
 >*The tone of the LLM's speech can alter the problem-solving trajectory of collaborative threads.*
+## Overview
 
 The **LLM Humility Enforcer** is a prompt designed to mitigate contextual inertia in iterative LLM conversations, such as debugging or troubleshooting threads. Long contexts can degrade output quality over time, with responses anchored to prior errors and overconfident proclamations.
 
